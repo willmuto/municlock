@@ -9,7 +9,7 @@ https://learn.adafruit.com/14-segment-alpha-numeric-led-featherwing/overview
 
 This code uses the public nextbus HTTP REST API for retrieving prediction times. To get an estimated arrival time, you first need a stop number. You can get a stop number by querying a route with the following REST call:
 
-http://webservices.nextbus.com/service/publicXMLFeed?command=routeConfig&a=sf-muni&r=<ROUTE#>
+`http://webservices.nextbus.com/service/publicXMLFeed?command=routeConfig&a=sf-muni&r=<ROUTE#>`
 
 For the 48, the response looks something like this:
 
@@ -29,7 +29,7 @@ For the 48, the response looks something like this:
 
 The stop number is specified by `tag=####`. Once you have that identifier, you can pass it to the prediction call:
 
-http://webservices.nextbus.com/service/publicXMLFeed?command=predictions&a=sf-muni&r=<ROUTE#>&s=<STOP#>
+`http://webservices.nextbus.com/service/publicXMLFeed?command=predictions&a=sf-muni&r=<ROUTE#>&s=<STOP#>`
 
 ```
 <body copyright="All data copyright San Francisco Muni 2019.">

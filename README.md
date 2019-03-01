@@ -46,6 +46,8 @@ The stop number is specified by `tag=####`. Once you have that identifier, you c
 </body>
 ```
 
+API documentation can be found here: https://gist.github.com/grantland/7cf4097dd9cdf0dfed14#file-readme-md
+
 ## Displaying
 
 The stops are specified in a multidimensional array, in the following order:

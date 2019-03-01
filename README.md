@@ -1,6 +1,6 @@
 # municlock
 
-This is code for driving a Muni prediction clock. The hardware is a Adafruit Huzzah ESP32 Feather with a 14-segment FeatherWing display.
+This is code for a Muni prediction clock. The hardware is a Adafruit Huzzah ESP32 Feather with a 14-segment FeatherWing display.
 
 https://learn.adafruit.com/adafruit-huzzah32-esp32-feather
 https://learn.adafruit.com/14-segment-alpha-numeric-led-featherwing/overview
